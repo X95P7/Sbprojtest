@@ -16,7 +16,7 @@ async function getPages() {
         pages = d.totalPages - 1;
 		totalAucs = d.totalAuctions;
 	
-    for (var p = 1; p <=4; p++) { // 2 to pages
+    for (var p = 1; p <=pages; p++) { // 2 to pages
 		document.getElementById("LoadBar").innerHTML = Math.round(p/pages * 100);
         var raw = await fetch("https://api.hypixel.net/skyblock/auctions?page=".concat(p));
         const d = await raw.json();
