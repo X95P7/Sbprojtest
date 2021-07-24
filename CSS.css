@@ -1,0 +1,100 @@
+body {
+  background-color: #010a4f;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+p {
+	color: white;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.card {
+	
+  border: 5px outset blue;
+  background-color: lightblue;
+  text-align: center;
+    margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 115px;
+  width: 30%;
+  display: inline-block;
+}
+
+.singleCard {
+	
+  border: 5px outset blue;
+  background-color: lightblue;
+  text-align: center;
+    margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 60%;
+  width: 80%;
+  display: inline-block;
+}
+
+#info {
+	 border: 5px outset black;
+width: 70%;}
+
+div{
+	 border: 2px outset black;
+	overflow:hidden;
+	
+}
+
+.cardInfo, .ImgDiv{
+	 margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+	  display: inline-block;
+height:100%;
+vertical-align: middle;
+float: center;
+}
+.cardInfo { 
+width: 50%;
+
+
+}
+
+.ImgDiv { 
+width: 35%;
+margin: 0;
+position: relative;
+text-align:center;
+}
+
+.singleCardLore{
+	text-align: left;
+	 font-size: 14px;
+}
+
+img {
+	border: 3px outset green;
+	width: 50%;
+	height: auto;
+	 position: absolute;
+	 top: 50%;
+	left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	
+	}
+	
+#itemCardinfo{
+  font-family: verdana;
+  font-size:11px;
+  color: white;
+  float: center;
+}
