@@ -1,0 +1,77 @@
+<HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<script src="pako.js"></script>
+<script src="nbt.js"></script>
+<script src="displays.js"></script>
+<script src="main.js"></script>
+<script src="utils.js"></script>
+				</head>
+				
+				<body>
+				<div id="header" class="header">
+				<a href="index.html" class="headForm">
+					<button type="submit" id="headBase" class="headerButtons">
+					<h2><b> Xylim.net</b></h2>
+					</button>
+					</a>
+						<a href="Search.html" class="headForm">
+							<button type="submit" id="Search" class="headerButtons"> 
+							<h2>Auction Searcher </h2>
+							</button>
+						</a>
+						
+						<a href="ahflipper.html" class="headForm">
+							<button type="submit" id="Search" class="headerButtons"> 
+							<h2>Ah Flipper </h2>
+							</button>
+						</a>
+				</div>
+					<div class="search-container">
+						<form action="javascript:searchItem([true,true,true,true,true])">
+						  <input type="text" id="searchbar" placeholder="Search Auctions.." name="search">
+						  
+						  <label for="reccom"> Recombobulated:</label>
+						  <input type="checkbox" id="reccomCheck" name="reccom">
+						  
+						  
+						    <label for="stars">Stars:</label>
+							  <select id="stars" name="stars">
+							    <option value="0">0/None</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							  </select>
+						  
+							 <input type="text" id="enchants" placeholder="Enchants (Seperate with commas)" name="enchants">
+							 
+							 <input type="text" id="reforge" placeholder="What reforge" name="reforge">
+
+							<label for="indeferency"> Indeferent (All items):</label>
+							<input type="checkbox" id="indeferency" name="indeferency">
+							
+						  <button type="submit">Submit</button>
+						</form>
+						
+						<form action="javascript:getPages()">
+<p>TESTING THING! Set to max for an entire ah seacrh</p>
+ <input type="range" min="1" max="100" value="10" class="slider" id="pRange">
+  <button type="submit">Submit</button>
+ </form>
+ 
+					  </div>
+ 
+ 
+  <p id="LoadBar">0%</p>
+
+
+
+<div id="info"> 
+<div id="backButton">
+
+</div>
+</div>
+</body>
+				</HTML>
