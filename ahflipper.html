@@ -1,0 +1,50 @@
+<HTML>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<script src="pako.js"></script>
+<script src="nbt.js"></script>
+<script src="displays.js"></script>
+<script src="flipper.js"></script>
+<script src="utils.js"></script>
+<script  src="Math.js"></script>
+<script  src="regression.js"></script>
+				</head>
+				
+				<div id="header" class="header">
+				<a href="index.html" class="headForm">
+					<button type="submit" id="headBase" class="headerButtons">
+					<h2><b> Xylim.net</b></h2>
+					</button>
+					</a>
+						<a href="Search.html" class="headForm">
+							<button type="submit" id="Search" class="headerButtons"> 
+							<h2>Auction Searcher </h2>
+							</button>
+						</a>
+						
+						<a href="ahflipper.html" class="headForm">
+							<button type="submit" id="Search" class="headerButtons"> 
+							<h2>Ah Flipper </h2>
+							</button>
+						</a>
+				</div>
+<div class="search-container">
+
+<form action="javascript:getPages()">
+<p>TESTING THING! Set to max for an entire ah seacrh (most accurate)</p>
+ <input type="range" min="1" max="100" value="10" class="slider" id="pRange">
+  <button type="submit">Submit</button>
+ </form>
+ 
+ <form>
+<p>Time vs Profit, finds items that are more likly to sell quicker adn are better flips</p>
+ <input type="range" min="1" max="100" value="50" class="slider" id="timeVSprofit">
+ </form>
+ 
+ 
+</div>
+					<div id="info"> 
+					
+				</div>
+</body>
+				</HTML>
